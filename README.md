@@ -13,6 +13,9 @@ Run `python main.py` to see basic console output from examples
 
 ## Resources for other languages
 [Javascript Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators)
+
 [PHP Generators](http://php.net/manual/en/language.generators.syntax.php)
+
 [Python Generators](https://wiki.python.org/moin/Generators)
+
 [Ruby Enumerators](https://ruby-doc.org/core-2.2.0/Enumerator.html)
