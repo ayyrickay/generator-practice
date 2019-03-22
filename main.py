@@ -1,4 +1,4 @@
-"""Understands how to serve sync tokens and send SMS reminders"""
+"""Contains examples and exercises for learning about generators"""
 from threading import Timer
 
 # **************************
