@@ -1,5 +1,6 @@
 // **************************
 // FOR LOOP
+// https://codepen.io/ayyrickay/pen/aMPpRm
 // **************************
 // Runs to termination
 // No ability to reset
@@ -10,6 +11,7 @@ for (let i = 0; i < 6; i++) {
 
 // **************************
 // GENERATOR
+// https://codepen.io/ayyrickay/pen/aMPpRm
 // **************************
 // Runs as its called
 // Can be reset through re-instantiation (with custom values)
@@ -41,6 +43,7 @@ console.log(logger.next().value)
 
 // **************************
 // SCHEDULER - NO GENERATOR
+// https://codepen.io/ayyrickay/pen/drwNaV
 // **************************
 
 // const pieces = ['scales', 'Hanon', 'Minuet in G', 'King March']
@@ -61,6 +64,7 @@ console.log(logger.next().value)
 
 // **************************
 // SCHEDULER - WITH GENERATOR
+// https://codepen.io/ayyrickay/pen/LaMxvj
 // **************************
 
 // function * repeater(arr) {
@@ -74,28 +78,29 @@ console.log(logger.next().value)
 // const numWeeks = 3
 // const daysPerWeek = 6
 // const totalSessions = numWeeks * daysPerWeek
-// const nextPiece = repeater(practicePieces)
+// const nextPiece = repeater(pieces)
 //
 // const schedule = [...Array(totalSessions)].map(() => ({
 //   practice: nextPiece.next().value
 // }))
 //
-// console.log(schedule
+// console.log(schedule)
 
 // **************************
 // FIBONACCI GENERATOR
+// https://codepen.io/ayyrickay/pen/wORJvO
 // **************************
 
-function * fib() {
-  // YOUR CODE HERE
-}
-
-// Create Fibonacci generator
-const fibGenerator = fib()
-
-// Logs the first 10 Fibonacci numbers
-let index = 0
-while ( index < 10) {
-  console.log(fibGenerator.next().value)
-  index++
-}
+// function * fib() {
+//   // YOUR CODE HERE
+// }
+//
+// // Create Fibonacci generator
+// const fibGenerator = fib()
+//
+// // Logs the first 10 Fibonacci numbers
+// let index = 0
+// while ( index < 10) {
+//   console.log(fibGenerator.next().value)
+//   index++
+// }
