@@ -3,6 +3,7 @@ from threading import Timer
 
 # **************************
 # FOR LOOP
+# https://codepen.io/ayyrickay/pen/aMPpRm
 # **************************
 # Runs to termination
 # No ability to reset
@@ -12,6 +13,7 @@ for x in range(6):
 
 # **************************
 # GENERATOR
+# https://codepen.io/ayyrickay/pen/aMPpRm
 # **************************
 # Runs as its called
 # Can be reset through re-instantiation (with custom values)
@@ -42,8 +44,9 @@ print next(LOGGER)
 
 # **************************
 # SCHEDULER - NO GENERATOR
+# https://codepen.io/ayyrickay/pen/drwNaV
 # **************************
-#
+
 # PIECES = ['scales', 'Hanon', 'Minuet in G', 'King March']
 #
 # NUM_WEEKS = 3
@@ -62,6 +65,7 @@ print next(LOGGER)
 
 # **************************
 # SCHEDULER - WITH GENERATOR
+# https://codepen.io/ayyrickay/pen/LaMxvj
 # **************************
 
 # def repeater(arr):
@@ -85,6 +89,7 @@ print next(LOGGER)
 
 # **************************
 # FIBONACCI GENERATOR
+# https://codepen.io/ayyrickay/pen/wORJvO
 # **************************
 
 # def fib():
